@@ -8,7 +8,8 @@ extends Area2D
 func _ready() -> void:
 	mouse_entered.connect(_on_mouse_entered)
 	mouse_exited.connect(_on_mouse_exited)
-
+	get_viewport().physics_object_picking_sort = true
+	get_viewport().physics_object_picking_first_only = true
 
 func set_outline_thickness(new_thickness: float) -> void:
 	canvas_group.material.set_shader_parameter("line_thickness", new_thickness)

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://3fluebn5kgop"]
+
+[ext_resource type="Script" uid="uid://cnxcakg7lj4ce" path="res://lessons/sparrow.gd" id="1_0m7jr"]
+[ext_resource type="Texture2D" uid="uid://bwhshkk62k3bh" path="res://assets/bird/sparrow.png" id="1_2p5gk"]
+
+[node name="Sparrow" type="Node2D"]
+script = ExtResource("1_0m7jr")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_2p5gk")

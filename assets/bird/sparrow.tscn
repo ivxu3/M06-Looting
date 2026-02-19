@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbit2ffb0p1bu"]
+
+[ext_resource type="Texture2D" uid="uid://bwhshkk62k3bh" path="res://assets/bird/sparrow.png" id="1_2p5gk"]
+
+[node name="Sparrow" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_2p5gk")
